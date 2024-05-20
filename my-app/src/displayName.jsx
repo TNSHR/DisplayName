@@ -27,6 +27,7 @@ const DisplayName=()=>{
 return(
     <div>
         <form onClick={HandleTheInput}>
+            <h1>Full Name Display</h1>
             <div><span>First Name:</span>
             <input type="text" value={firstName} onChange={(e)=>setFirstName(e.target.value)} 
             required onInvalid={handleError} onInput={handleIn} /></div>
